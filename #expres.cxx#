@@ -1,0 +1,45 @@
+//Lekha Adari
+//06/30/17
+//pa05 implementation file
+
+#include <cstdlib> // Provides NULL
+#include "express.h"
+
+
+// CONSTRUCTORS and DESTRUCTOR
+ExpressionTree::ExpressionTree(double value){
+}
+
+ExpressionTree::ExpressionTree(const ExpressionTree& source){
+}
+
+ExpressionTree::~ExpressionTree(){
+}
+
+// ASSIGNMENT OPERATOR
+ExpressionTree& ExpressionTree::operator =(const ExpressionTree& source){
+}
+
+double ExpressionTree::evaluate() const{
+}
+
+void ExpressionTree::printPre() const{
+}
+
+void ExpressionTree::printPost() const{
+}
+
+void ExpressionTree::printIn() const{
+}
+
+// NONMEMBER FUNCTIONS FOR BUILDING BIGGER EXPRESSION TREES:
+friend
+ExpressionTree operator +(const ExpressionTree& e1, const ExpressionTree& e2){
+}
+
+friend
+ExpressionTree operator *(const ExpressionTree& e1, const ExpressionTree& e2){
+}
+
+
+
